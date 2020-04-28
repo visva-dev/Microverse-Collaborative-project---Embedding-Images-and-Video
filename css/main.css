@@ -4,13 +4,16 @@
 }
 
 .main {
+  background-color: #eeeeee;
   display: grid;
   grid-template-rows: 8vh 170vh 20vh;
-  grid-template-columns: 80vw 18.7vw;
+  grid-template-columns: 74vw 23.7vw;
+  gap: 1em;
 }
 
 .header {
   grid-column: 1/-1;
+  background-color: white;
 }
 
 .header img {
@@ -64,7 +67,14 @@
 }
 
 .video {
-  background-color: brown;
+  background-color: #eeeeee;
+}
+
+.info-box {
+  position: relative;
+  background-color: white;
+  height: 20vh;
+  top: -2vh;
 }
 
 .recommended-videos {
@@ -78,12 +88,141 @@
 
 .video-iframe {
   position: relative;
-  left: 8vw;
-  top: 1vw;
+  left: 0.5vw;
+  top: 0vh;
 }
 
 .title {
   position: relative;
-  left: 8vw;
-  margin-top: 1.5vw;
+  left: 1vw;
+  top: 4vh;
+  text-decoration: solid;
+  font-size: 1.5em;
+}
+
+.channel-picture {
+  position: relative;
+  width: 5vw;
+  left: 1vw;
+  top: 4vh;
+}
+
+.channel-title {
+  position: relative;
+  left: 1.5vw;
+  top: -2vh;
+  text-decoration: solid;
+  font-size: 1em;
+}
+
+.subscribe-btn {
+  position: relative;
+  height: 31px;
+  top: 2.5vh;
+  left: -2.3vw;
+  color: white;
+  background-color: #ff0000;
+  border-radius: 4px;
+  border: none;
+}
+
+.sb-number {
+  position: relative;
+  height: 31px;
+  top: 2.5vh;
+  left: -2.6vw;
+  color: black;
+  background-color: white;
+  border: solid 1px;
+  padding: 0.3rem;
+}
+
+.line {
+  position: relative;
+  background-color: #666666;
+  width: 66vw;
+  height: 0.1vh;
+  left: 1vw;
+}
+
+.views {
+  position: relative;
+  left: 66vw;
+  top: -4vh;
+  font-size: 1.5em;
+  color: #666666;
+}
+
+.view-line {
+  background: rgb(17, 95, 196);
+  height: 0.5vh;
+  width: 6vw;
+  position: relative;
+  left: 66.5vw;
+  top: -3.5vh;
+}
+
+.like-disike {
+  position: relative;
+  left: 66.5vw;
+  top: -2.5vh;
+}
+
+.like-dislike-btn {
+  background: none;
+  border: none;
+}
+
+.like-dislike-btn i {
+  color: #666666;
+}
+
+.share-more {
+  position: relative;
+  left: 1vw;
+  top: -4.5vh;
+}
+
+.action-btn {
+  background: none;
+  border: none;
+}
+
+.action-btn i {
+  color: #666666;
+}
+
+.description-box {
+  position: relative;
+  background-color: white;
+  height: 21vh;
+  top: -0.7vh;
+}
+
+.description-date {
+  position: relative;
+  top: 1vh;
+  left: 0.7vw;
+  font-weight: 600;
+}
+
+.description-box p {
+  position: relative;
+  top: 2vh;
+  left: 0.7vw;
+}
+
+.description-box h4 {
+  position: relative;
+  text-align: center;
+  top: 2vh;
+  color: #666666;
+}
+
+.full-line {
+  position: relative;
+  background-color: #666666;
+  width: 72vw;
+  height: 0.1vh;
+  left: 1vw;
 }
