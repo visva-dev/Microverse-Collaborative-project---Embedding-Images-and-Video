@@ -1,78 +1,89 @@
-*{
+* {
   margin: 0px;
   box-sizing: border-box;
 }
 
-.main{
+.main {
   display: grid;
-  grid-template-rows: 8vh 80vh 20vh;
+  grid-template-rows: 8vh 170vh 20vh;
   grid-template-columns: 80vw 18.7vw;
 }
 
-.header{
-   grid-column: 1/-1;
+.header {
+  grid-column: 1/-1;
 }
 
 .header img {
-  width:100px;
+  width: 100px;
   height: 30px;
   margin-top: 0.8em;
   margin-left: 1em;
 }
 
-.header input[type=text]{
+.header input[type='text'] {
   position: relative;
-  top:-1.5vh;
+  top: -0.7vh;
   left: 15vw;
   margin-bottom: 10px;
-  width:40vw;
-  height:4.5vh;
-  border: solid 2px gray; 
+  width: 40vw;
+  height: 4.5vh;
+  border: solid 2px gray;
 }
 
-.header .search-button{
+.header .search-button {
   position: relative;
-  left:14.7vw;
-  width: 70px;
-  height:31px;
-  background-image: url("../images/search-icon.png");
+  left: 14.7vw;
+  top: 1vh;
+  width: 3.5vw;
+  height: 4.5vh;
+  background-image: url('../images/search-icon.png');
   background-repeat: no-repeat;
-  background-position: 14px ;
-  background-color: #f8f8f8;  
+  background-position: 14px;
+  background-color: #f8f8f8;
 }
 
-.header .upload-button{
-  width:25px;
-  height:30px;
-  border:none;
+.header .upload-button {
+  width: 25px;
+  height: 30px;
+  border: none;
   position: relative;
   left: 30vw;
-  background-image: url("../images/upload-icon.png");
+  background-image: url('../images/upload-icon.png');
   background-repeat: no-repeat;
   background-color: white;
 }
 
-.header .signin-button{
+.header .signin-button {
   position: relative;
-  height:31px;
-  top:-1.5vh;
-  left:32vw;
+  height: 31px;
+  top: -1.5vh;
+  left: 32vw;
   color: white;
   background-color: rgb(22, 122, 198);
   border-radius: 4px;
 }
 
-.video{
+.video {
   background-color: brown;
 }
 
-.recommended-videos{
+.recommended-videos {
   background-color: cadetblue;
 }
 
-.footer{
+.footer {
   background-color: coral;
   grid-column: 1/-1;
 }
 
+.video-iframe {
+  position: relative;
+  left: 8vw;
+  top: 1vw;
+}
 
+.title {
+  position: relative;
+  left: 8vw;
+  margin-top: 1.5vw;
+}
