@@ -8,14 +8,13 @@
 .main {
   background-color: #eeeeee;
   display: grid;
-  grid-template-rows: 8vh 170vh 20vh;
+  grid-template-rows: 55px 1200px 20px;
   grid-template-columns: 70% 29%;
   gap: 1%;
 }
 
 .header {
   grid-column: 1/-1;
-  background-color: white;
 }
 
 .recommended-videos {
@@ -38,24 +37,38 @@
 
 .header input[type='text'] {
   position: relative;
-  top: -0.7vh;
-  left: 15vw;
-  margin-bottom: 10px;
-  width: 40vw;
-  height: 4.5vh;
-  border: solid 2px gray;
+  top: -10px;
+  left: 16%;
+  width: 40%;
+  padding-left: 1%;
+  height: 30px;
+  border-top: solid 1px gray; 
+  border-bottom: solid 1px gray;
+  border-left: solid 1px gray;
 }
 
 .header .search-button {
   position: relative;
-  left: 14.7vw;
-  top: 1vh;
-  width: 3.5vw;
-  height: 4.5vh;
-  background-image: url('../images/search-icon.png');
-  background-repeat: no-repeat;
-  background-position: 14px;
+  top:-10px;
+  left: 15.5%;
+  width: 3.5%;
+  height: 30px;
   background-color: #f8f8f8;
+  border: solid 1px gray;
+  color: #888; 
+}
+
+.header .grid-button{
+  position: relative;
+  top:-10px;
+  left: 18.5%;
+  width: 3.5%;
+  font-size: 25px;
+  border:none;
+  padding:0;
+  background-color: #f8f8f8;
+  border: solid 1px gray;
+  color: #888;
 }
 
 .header .upload-button {
