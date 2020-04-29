@@ -3,18 +3,31 @@
   box-sizing: border-box;
 }
 
+/* Splitting screen innto header, video section, recomended video section and footer */
+
 .main {
   background-color: #eeeeee;
   display: grid;
   grid-template-rows: 8vh 170vh 20vh;
-  grid-template-columns: 74vw 23.7vw;
-  gap: 1em;
+  grid-template-columns: 70% 29%;
+  gap: 1%;
 }
 
 .header {
   grid-column: 1/-1;
   background-color: white;
 }
+
+.recommended-videos {
+  background-color: cadetblue;
+}
+
+.footer {
+  background-color: coral;
+  grid-column: 1/-1;
+}
+
+/* header styling */
 
 .header img {
   width: 100px;
@@ -66,106 +79,111 @@
   border-radius: 4px;
 }
 
+
+/* video section styling */
+
 .video {
   background-color: #eeeeee;
 }
 
+.video-box{
+  position: relative;
+  left: 1%;
+  width: 99%;
+  height: 50%;
+}
+
+.video-box iframe{
+  position: relative;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .info-box {
   position: relative;
+  left: 1%;
   background-color: white;
-  height: 20vh;
-  top: -2vh;
-}
-
-.recommended-videos {
-  background-color: cadetblue;
-}
-
-.footer {
-  background-color: coral;
-  grid-column: 1/-1;
-}
-
-.video-iframe {
-  position: relative;
-  left: 0.5vw;
-  top: 0vh;
+  height: 15%;
+  width:99%;
 }
 
 .title {
   position: relative;
-  left: 1vw;
-  top: 4vh;
-  text-decoration: solid;
-  font-size: 1.5em;
+  left: 1.5%;
+  top: 5%;
+  font-size: 1.2em;
 }
 
 .channel-picture {
   position: relative;
-  width: 5vw;
-  left: 1vw;
-  top: 4vh;
+  width: 7%;
+  height:25%;
+  left: 1.5%;
+  top: 12%;
 }
 
 .channel-title {
   position: relative;
-  left: 1.5vw;
-  top: -2vh;
-  text-decoration: solid;
+  left:2.5%;
+  top:-6%;
+  font-weight: 600;
   font-size: 1em;
 }
 
 .subscribe-btn {
   position: relative;
-  height: 31px;
-  top: 2.5vh;
-  left: -2.3vw;
+  left: -8.7%;
+  top:8.7%;
+  height: 15%;
   color: white;
   background-color: #ff0000;
-  border-radius: 4px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
   border: none;
 }
 
 .sb-number {
   position: relative;
-  height: 31px;
-  top: 2.5vh;
-  left: -2.6vw;
-  color: black;
+  left: -9.4%;
+  top:9.3%;
   background-color: white;
   border: solid 1px;
-  padding: 0.3rem;
+  border-left: none;
+  padding: 0.17rem;
 }
 
 .line {
-  position: relative;
+  position: absolute;
+  top:58%;
+  left: 1.5%;
   background-color: #666666;
-  width: 66vw;
-  height: 0.1vh;
-  left: 1vw;
+  width: 97%;
+  height: 0.1%;
 }
 
 .views {
-  position: relative;
-  left: 66vw;
-  top: -4vh;
+  position: absolute;
+  left: 83%;
+  top: 38%;
   font-size: 1.5em;
   color: #666666;
 }
 
 .view-line {
   background: rgb(17, 95, 196);
-  height: 0.5vh;
+  height: 1%;
   width: 6vw;
-  position: relative;
-  left: 66.5vw;
-  top: -3.5vh;
+  position: absolute;
+  left: 84%;
+  top: 57.5%;
 }
 
 .like-disike {
-  position: relative;
-  left: 66.5vw;
-  top: -2.5vh;
+  position: absolute;
+  left: 84%;
+  top: 65%;
 }
 
 .like-dislike-btn {
@@ -178,9 +196,9 @@
 }
 
 .share-more {
-  position: relative;
-  left: 1vw;
-  top: -4.5vh;
+  position: absolute;
+  left: 2%;
+  top: 65%;
 }
 
 .action-btn {
@@ -194,38 +212,49 @@
 
 .description-box {
   position: relative;
+  top: 2%;
+  left:1%;
   background-color: white;
-  height: 21vh;
-  top: -0.7vh;
+  width:99%;
+  height: 18%;
 }
 
 .description-date {
-  position: relative;
-  top: 1vh;
-  left: 0.7vw;
+  position: absolute;
+  top: 10%;
+  left: 2%;
   font-weight: 600;
 }
 
 .description-box p {
-  position: relative;
+  position: absolute;
+  font-size: 0.9em;
+  margin-top: 3%;
+  padding: 0% 2%;
   top: 2vh;
-  left: 0.7vw;
-}
-
-.description-box h4 {
-  position: relative;
-  text-align: center;
-  top: 2vh;
-  color: #666666;
 }
 
 .full-line {
   position: relative;
   background-color: #666666;
-  width: 72vw;
-  height: 0.1vh;
-  left: 1vw;
+  width: 97%;
+  height: 0.05em;
+  left: 2%;
+  top: 75%;
 }
+
+.show-more-btn{
+  position: relative;
+  margin-top:19%;
+  left:45%;
+  background-color: transparent;
+  cursor: pointer;
+  border:none;
+  font-weight: 550;
+  color: #b3b3b3;
+  text-align: center;
+}
+
 
 .comments-box {
   position: relative;
