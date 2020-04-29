@@ -226,3 +226,10 @@
   height: 0.1vh;
   left: 1vw;
 }
+
+.comments-box {
+  position: relative;
+  background-color: white;
+  height: 21vh;
+  top: 1vh;
+}
