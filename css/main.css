@@ -18,6 +18,7 @@
 
 .header {
   grid-column: 1/-1;
+  display: flex;
   background-color: white;
 }
 
@@ -32,7 +33,18 @@
 
 /* header styling */
 
-.header .bars-button {
+.left-header-section{
+  align-self: start;
+}
+.center-header-section{
+  align-self: center;
+}
+
+.right-header-section{
+  align-self: end;
+}
+
+.left-header-section .bars-button {
   position: relative;
   left: 20px;
   top: 6px;
@@ -45,7 +57,7 @@
   color: #888;
 }
 
-.header img {
+.left-header-section  img {
   position: relative;
   width: 100px;
   height: 30px;
@@ -53,9 +65,8 @@
   left: 50px;
 }
 
-.header input[type='text'] {
+.center-header-section  input[type='text'] {
   position: relative;
-  top: 3px;
   left: 240px;
   width: 409px;
   padding-left: 1%;
@@ -65,9 +76,8 @@
   border-left: solid 1px gray;
 }
 
-.header .search-button {
+.center-header-section .search-button {
   position: relative;
-  top: 3px;
   left: 235px;
   width: 50px;
   height: 30px;
@@ -76,10 +86,10 @@
   color: #888;
 }
 
-.header .grid-button {
+.right-header-section .grid-button {
   position: relative;
   left: 495px;
-  top: 6px;
+  top: 17px;
   cursor: pointer;
   width: 20px;
   font-size: 20px;
@@ -89,10 +99,10 @@
   color: #888;
 }
 
-.header .bell-button {
+.right-header-section .bell-button {
   position: relative;
   left: 505px;
-  top: 6px;
+  top: 17px;
   cursor: pointer;
   width: 20px;
   font-size: 20px;
@@ -102,10 +112,10 @@
   color: #888;
 }
 
-.header .upload-button {
+.right-header-section .upload-button {
   position: relative;
   left: 517px;
-  top: 6px;
+  top: 17px;
   cursor: pointer;
   width: 20px;
   font-size: 20px;
@@ -115,10 +125,10 @@
   color: #888;
 }
 
-.header .signin-button {
+.right-header-section .signin-button {
   position: relative;
   height: 31px;
-  top: 3px;
+  top: 13px;
   left: 530px;
   color: white;
   background-color: rgb(22, 122, 198);
