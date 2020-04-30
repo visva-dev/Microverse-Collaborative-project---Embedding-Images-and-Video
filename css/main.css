@@ -18,11 +18,6 @@
   background-color: white;
 }
 
-.video {
-  /* background-color: #eeeeee; */
-  background-color: red;
-}
-
 .recommended-videos {
   background-color: cadetblue;
 }
@@ -130,11 +125,15 @@
 
 /* video section styling */
 
+.video {
+  background-color: #eeeeee;
+}
+
 .video-box{
   position: relative;
   left: 1%;
   width: 99%;
-  height: 50%;
+  height: 500px;
 }
 
 .video-box iframe{
@@ -147,40 +146,41 @@
 
 .info-box {
   position: relative;
+  top:13px;
   left: 1%;
   background-color: white;
-  height: 15%;
+  height: 175px;
   width:99%;
 }
 
 .title {
   position: relative;
   left: 1.5%;
-  top: 5%;
+  top: 13px;
   font-size: 1.2em;
 }
 
 .channel-picture {
   position: relative;
   width: 7%;
-  height:25%;
+  height:55px;
   left: 1.5%;
-  top: 12%;
+  top: 30px;
 }
 
 .channel-title {
   position: relative;
   left:2.5%;
-  top:-6%;
+  top:-14px;
   font-weight: 600;
-  font-size: 1em;
+  font-size: 14px;
 }
 
 .subscribe-btn {
   position: relative;
-  left: -8.7%;
-  top:8.7%;
-  height: 15%;
+  left: -7.2%;
+  top:15px;
+  height: 25px;
   color: white;
   background-color: #ff0000;
   border-top-left-radius: 4px;
@@ -190,44 +190,45 @@
 
 .sb-number {
   position: relative;
-  left: -9.4%;
-  top:9.3%;
+  left: -7.6%;
+  top:16px;
   background-color: white;
   border: solid 1px;
   border-left: none;
-  padding: 0.17rem;
+  padding: 3px;
 }
 
 .line {
-  position: absolute;
-  top:58%;
+  position: relative;
+  top:35px;
   left: 1.5%;
   background-color: #666666;
   width: 97%;
-  height: 0.1%;
+  height: 1px;
 }
 
 .views {
-  position: absolute;
+  display:inline-block;
+  position: relative;
   left: 83%;
-  top: 38%;
-  font-size: 1.5em;
+  font-size: 23px;
   color: #666666;
 }
 
 .view-line {
   background: rgb(17, 95, 196);
-  height: 1%;
-  width: 6vw;
-  position: absolute;
+  height: 3px;
+  width: 12.1%;
+  position: relative;
   left: 84%;
-  top: 57.5%;
+  top: 7px;
 }
 
 .like-disike {
-  position: absolute;
+  display: inline-block;
+  position: relative;
   left: 84%;
-  top: 65%;
+  top: 18px;
 }
 
 .like-dislike-btn {
@@ -240,9 +241,10 @@
 }
 
 .share-more {
-  position: absolute;
-  left: 2%;
-  top: 65%;
+  display: inline-block;
+  position: relative;
+  left: -11%;
+  top: 16px;
 }
 
 .action-btn {
@@ -305,4 +307,4 @@
   background-color: white;
   height: 21vh;
   top: 1vh;
-}}
+}
