@@ -8,28 +8,24 @@
 .main {
   background-color: #eeeeee;
   display: grid;
-  grid-template-rows: 55px 1200px 55px;
+  grid-template-rows: 55px 1500px;
   grid-template-columns: 70% 29%;
   gap: 1%;
-  /* max-width: 1366px; */
   width:100%;
   margin: auto;
 }
 
 .header {
+  /* position: fixed; */
   grid-column: 1/-1;
   display: flex;
   background-color: white;
 }
 
 .recommended-videos {
-  background-color: cadetblue;
+  background-color: white;
 }
 
-.footer {
-  background-color: coral;
-  grid-column: 1/-1;
-}
 
 /* header styling */
 
@@ -159,7 +155,7 @@
 .info-box {
   position: relative;
   top: 13px;
-  left: 1%;
+  left: 10px;
   background-color: white;
   height: 175px;
   width: 99%;
@@ -270,52 +266,261 @@
 
 .description-box {
   position: relative;
-  top: 2%;
-  left: 1%;
+  top: 25px;
+  left: 10px;
   background-color: white;
   width: 99%;
-  height: 18%;
+  height: 200px;
 }
 
 .description-date {
-  position: absolute;
-  top: 10%;
-  left: 2%;
-  font-weight: 600;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  font-weight: 700;
+  font-size: 14px;
 }
 
 .description-box p {
-  position: absolute;
-  font-size: 0.9em;
-  margin-top: 3%;
-  padding: 0% 2%;
-  top: 2vh;
+  position: relative;
+  font-size: 15px;
+  top: 15px;
+  padding: 0px 10px;
 }
 
 .full-line {
   position: relative;
   background-color: #666666;
   width: 97%;
-  height: 0.05em;
-  left: 2%;
-  top: 75%;
+  height: 1px;
+  left: 10px;
+  top: 27px;
 }
 
 .show-more-btn {
   position: relative;
-  margin-top: 19%;
-  left: 45%;
+  top: 38px;
+  left:385px; 
   background-color: transparent;
   cursor: pointer;
   border: none;
   font-weight: 550;
   color: #b3b3b3;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .comments-box {
   position: relative;
   background-color: white;
-  height: 21vh;
-  top: 1vh;
+  height: 586px;
+  width:99%;
+  top: 38px;
+  left:10px
+}
+
+.comments-no-label{
+  position: relative;
+  top:10px;
+  left:10px;
+}
+
+.comments-box .sort-button{
+  position: relative;
+  top:17px;
+  left:95px;
+  background: transparent;
+  border:none;
+}
+
+.comments-box .sort-button label{
+  position: relative;
+  left:2px;
+  top:-5px;
+  font-size: 14px;
+}
+
+.comments-box .user-avatar{
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+}
+
+.comments-box .current-user-image{
+  position: relative;
+  top: 80px;
+  left:-175px;
+}
+
+.comments-box .text-add-comment{
+  position: relative;
+  top: 54px;
+  left:-162px;
+  font-size: 18px;
+  border:none;  
+}
+
+.comments-box .add-comment-line{
+  position: relative;
+  top: 55px;
+  left: 80px;
+  background-color: #666666;
+  width: 89%;
+  height: 1px; 
+}
+
+.commments{
+  position: relative;
+  top: 90px;
+  width:100%;
+  height:auto;
+}
+
+.single-comment{
+  position: relative;
+  padding: 10px 0px;
+  width: 70%;
+  height:auto;
+}
+
+.single-comment .comment-image{
+  position: relative;
+  left:13px;
+}
+
+.single-comment .user-name{
+  position: relative;
+  top: -30px;
+  left:27px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.single-comment .commented-time{
+  position: relative;
+  top: -30px;
+  left:31px;
+  cursor: pointer;
+}
+
+.single-comment .comment{
+  position: relative;
+  top:-20px;
+  left: 81px;
+}
+
+.single-comment .like-btn{
+  position: relative;
+  color: #666666;
+  top:-8px;
+  left:73px;
+  border:none;
+  background-color: transparent;
+}
+
+.single-comment .like-btn .no-of-likes{
+  font-size: 10px;
+}
+
+.single-comment .dislike-button{
+  position: relative;
+  color: #666666;
+  background-color: transparent;
+  border:none;
+  top:-8px;
+  left:80px;
+}
+
+.single-comment .dislike-button .no-of-dislikes{
+  font-size: 10px;
+}
+
+.single-comment .reply-button{
+  position: relative;
+  color: #666666;
+  background-color: transparent;
+  border:none;
+  top:-8px;
+  left:87px;
+  text-transform: uppercase;
+}
+
+
+/* Recomended video section */
+
+.upnext-label{
+  position: relative;
+  top:17px;
+  left:10px;
+  font-size: 18px;
+}
+
+.autoplay-label{
+  position: relative;
+  top:17px;
+  left:150px;
+  font-size: 18px;
+}
+
+.exclamation-circle-btn{
+  position: relative;
+  top:17px;
+  left:160px;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+}
+
+.autoplay-btn{
+  position: relative;
+  top:17px;
+  left:155px;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  color:blueviolet;
+}
+
+.single-recomended-video{
+  position: relative;
+  padding: 10px;
+  height: 100px;
+}
+
+.single-recomended-video .recomended-video-img{
+  position: relative;
+  width:145px;
+  top:0px;
+  left:0px;
+}
+
+.single-recomended-video  .recomended-title{
+  position: relative;
+  width:200px;
+  top:-82px;
+  left:160px;
+}
+
+.single-recomended-video .recomended-channel-title{
+  position: relative;
+  top:-82px;
+  left:160px;
+  font-size: 12px;
+  color: #767676;
+}
+
+.single-recomended-video .recomended-views{
+  position: relative;
+  top:-65px;
+  left:112px;
+  font-size: 12px;
+  color: #767676;
+}
+
+.next-play-line{
+  position: relative;
+  background-color: #666666;
+  width: 95%;
+  height: 1px;
+  left: 10px;
 }
