@@ -8,13 +8,19 @@
 .main {
   background-color: #eeeeee;
   display: grid;
-  grid-template-rows: 55px 1200px 20px;
+  grid-template-rows: 55px 1200px 55px;
   grid-template-columns: 70% 29%;
   gap: 1%;
 }
 
 .header {
   grid-column: 1/-1;
+  background-color: white;
+}
+
+.video {
+  /* background-color: #eeeeee; */
+  background-color: red;
 }
 
 .recommended-videos {
@@ -28,16 +34,30 @@
 
 /* header styling */
 
+.header .bars-button{
+  position: relative;
+  left: 2.2%;
+  top: 6px;
+  cursor: pointer;
+  width: 1.8%;
+  font-size: 20px;
+  border:none;
+  padding:0;
+  background-color: transparent;
+  color: #888;
+}
+
 .header img {
+  position: relative;
   width: 100px;
   height: 30px;
-  margin-top: 0.8em;
-  margin-left: 1em;
+  top: 14px;
+  left: 3%;
 }
 
 .header input[type='text'] {
   position: relative;
-  top: -10px;
+  top: 3px;
   left: 16%;
   width: 40%;
   padding-left: 1%;
@@ -49,7 +69,7 @@
 
 .header .search-button {
   position: relative;
-  top:-10px;
+  top: 3px;
   left: 15.5%;
   width: 3.5%;
   height: 30px;
@@ -60,32 +80,47 @@
 
 .header .grid-button{
   position: relative;
-  top:-10px;
-  left: 18.5%;
-  width: 3.5%;
-  font-size: 25px;
+  left: 30.5%;
+  top: 6px;
+  cursor: pointer;
+  width: 1.8%;
+  font-size: 20px;
   border:none;
   padding:0;
-  background-color: #f8f8f8;
-  border: solid 1px gray;
+  background-color: transparent;
+  color: #888;
+}
+
+.header .bell-button{
+  position: relative;
+  left: 31%;
+  top: 6px;
+  cursor: pointer;
+  width: 1.8%;
+  font-size: 20px;
+  border:none;
+  padding:0;
+  background-color: transparent;
   color: #888;
 }
 
 .header .upload-button {
-  width: 25px;
-  height: 30px;
-  border: none;
   position: relative;
-  left: 30vw;
-  background-image: url('../images/upload-icon.png');
-  background-repeat: no-repeat;
-  background-color: white;
+  left: 31.5%;
+  top: 6px;
+  cursor: pointer;
+  width: 1.8%;
+  font-size: 20px;
+  border:none;
+  padding:0;
+  background-color: transparent;
+  color: #888;
 }
 
 .header .signin-button {
   position: relative;
   height: 31px;
-  top: -1.5vh;
+  top: 3px;
   left: 32vw;
   color: white;
   background-color: rgb(22, 122, 198);
@@ -94,10 +129,6 @@
 
 
 /* video section styling */
-
-.video {
-  background-color: #eeeeee;
-}
 
 .video-box{
   position: relative;
@@ -274,4 +305,4 @@
   background-color: white;
   height: 21vh;
   top: 1vh;
-}
+}}
