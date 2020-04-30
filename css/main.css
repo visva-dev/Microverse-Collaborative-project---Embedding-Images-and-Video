@@ -11,6 +11,8 @@
   grid-template-rows: 55px 1200px 55px;
   grid-template-columns: 70% 29%;
   gap: 1%;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .header {
@@ -29,15 +31,15 @@
 
 /* header styling */
 
-.header .bars-button{
+.header .bars-button {
   position: relative;
   left: 2.2%;
   top: 6px;
   cursor: pointer;
   width: 1.8%;
   font-size: 20px;
-  border:none;
-  padding:0;
+  border: none;
+  padding: 0;
   background-color: transparent;
   color: #888;
 }
@@ -57,7 +59,7 @@
   width: 40%;
   padding-left: 1%;
   height: 30px;
-  border-top: solid 1px gray; 
+  border-top: solid 1px gray;
   border-bottom: solid 1px gray;
   border-left: solid 1px gray;
 }
@@ -70,31 +72,31 @@
   height: 30px;
   background-color: #f8f8f8;
   border: solid 1px gray;
-  color: #888; 
+  color: #888;
 }
 
-.header .grid-button{
+.header .grid-button {
   position: relative;
   left: 30.5%;
   top: 6px;
   cursor: pointer;
   width: 1.8%;
   font-size: 20px;
-  border:none;
-  padding:0;
+  border: none;
+  padding: 0;
   background-color: transparent;
   color: #888;
 }
 
-.header .bell-button{
+.header .bell-button {
   position: relative;
   left: 31%;
   top: 6px;
   cursor: pointer;
   width: 1.8%;
   font-size: 20px;
-  border:none;
-  padding:0;
+  border: none;
+  padding: 0;
   background-color: transparent;
   color: #888;
 }
@@ -106,8 +108,8 @@
   cursor: pointer;
   width: 1.8%;
   font-size: 20px;
-  border:none;
-  padding:0;
+  border: none;
+  padding: 0;
   background-color: transparent;
   color: #888;
 }
@@ -116,12 +118,11 @@
   position: relative;
   height: 31px;
   top: 3px;
-  left: 32vw;
+  left: 24vw;
   color: white;
   background-color: rgb(22, 122, 198);
   border-radius: 4px;
 }
-
 
 /* video section styling */
 
@@ -129,16 +130,16 @@
   background-color: #eeeeee;
 }
 
-.video-box{
+.video-box {
   position: relative;
   left: 1%;
   width: 99%;
   height: 500px;
 }
 
-.video-box iframe{
+.video-box iframe {
   position: relative;
-  top:0;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
@@ -146,11 +147,11 @@
 
 .info-box {
   position: relative;
-  top:13px;
+  top: 13px;
   left: 1%;
   background-color: white;
   height: 175px;
-  width:99%;
+  width: 99%;
 }
 
 .title {
@@ -163,15 +164,15 @@
 .channel-picture {
   position: relative;
   width: 7%;
-  height:55px;
+  height: 55px;
   left: 1.5%;
   top: 30px;
 }
 
 .channel-title {
   position: relative;
-  left:2.5%;
-  top:-14px;
+  left: 2.5%;
+  top: -14px;
   font-weight: 600;
   font-size: 14px;
 }
@@ -179,7 +180,7 @@
 .subscribe-btn {
   position: relative;
   left: -7.2%;
-  top:15px;
+  top: 15px;
   height: 25px;
   color: white;
   background-color: #ff0000;
@@ -191,7 +192,7 @@
 .sb-number {
   position: relative;
   left: -7.6%;
-  top:16px;
+  top: 16px;
   background-color: white;
   border: solid 1px;
   border-left: none;
@@ -200,7 +201,7 @@
 
 .line {
   position: relative;
-  top:35px;
+  top: 35px;
   left: 1.5%;
   background-color: #666666;
   width: 97%;
@@ -208,7 +209,7 @@
 }
 
 .views {
-  display:inline-block;
+  display: inline-block;
   position: relative;
   left: 83%;
   font-size: 23px;
@@ -259,9 +260,9 @@
 .description-box {
   position: relative;
   top: 2%;
-  left:1%;
+  left: 1%;
   background-color: white;
-  width:99%;
+  width: 99%;
   height: 18%;
 }
 
@@ -289,18 +290,17 @@
   top: 75%;
 }
 
-.show-more-btn{
+.show-more-btn {
   position: relative;
-  margin-top:19%;
-  left:45%;
+  margin-top: 19%;
+  left: 45%;
   background-color: transparent;
   cursor: pointer;
-  border:none;
+  border: none;
   font-weight: 550;
   color: #b3b3b3;
   text-align: center;
 }
-
 
 .comments-box {
   position: relative;
