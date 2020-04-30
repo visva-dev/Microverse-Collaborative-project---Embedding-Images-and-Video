@@ -11,7 +11,8 @@
   grid-template-rows: 55px 1200px 55px;
   grid-template-columns: 70% 29%;
   gap: 1%;
-  max-width: 1400px;
+  /* max-width: 1366px; */
+  width:100%;
   margin: auto;
 }
 
@@ -33,7 +34,7 @@
 
 .header .bars-button {
   position: relative;
-  left: 2.2%;
+  left: 20px;
   top: 6px;
   cursor: pointer;
   width: 1.8%;
@@ -49,13 +50,13 @@
   width: 100px;
   height: 30px;
   top: 14px;
-  left: 3%;
+  left: 50px;
 }
 
 .header input[type='text'] {
   position: relative;
   top: 3px;
-  left: 16%;
+  left: 240px;
   width: 40%;
   padding-left: 1%;
   height: 30px;
@@ -67,7 +68,7 @@
 .header .search-button {
   position: relative;
   top: 3px;
-  left: 15.5%;
+  left: 235px;
   width: 3.5%;
   height: 30px;
   background-color: #f8f8f8;
@@ -77,7 +78,7 @@
 
 .header .grid-button {
   position: relative;
-  left: 30.5%;
+  left: 397px;
   top: 6px;
   cursor: pointer;
   width: 1.8%;
@@ -90,7 +91,7 @@
 
 .header .bell-button {
   position: relative;
-  left: 31%;
+  left: 404px;
   top: 6px;
   cursor: pointer;
   width: 1.8%;
@@ -103,7 +104,7 @@
 
 .header .upload-button {
   position: relative;
-  left: 31.5%;
+  left: 410px;
   top: 6px;
   cursor: pointer;
   width: 1.8%;
@@ -118,7 +119,7 @@
   position: relative;
   height: 31px;
   top: 3px;
-  left: 24vw;
+  left: 420px;
   color: white;
   background-color: rgb(22, 122, 198);
   border-radius: 4px;
