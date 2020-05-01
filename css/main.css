@@ -17,7 +17,6 @@
 
 .header {
   grid-column: 1/-1;
-  display: flex;
   background-color: white;
 }
 
@@ -28,21 +27,30 @@
 
 /* header styling */
 
+.header-flex-container{
+  display:flex;
+  height:55px;
+}
+
 .left-header-section{
-  align-self: start;
+  flex:1;
 }
 .center-header-section{
-  align-self: center;
+  flex:2;
 }
 
 .right-header-section{
-  align-self: end;
+  flex:1;
 }
 
-.left-header-section .bars-button {
+.left-header-flexbox{
+  display: flex;
+}
+
+.left-header-flexbox .bars-button {
   position: relative;
   left: 20px;
-  top: 6px;
+  top: 12px;
   cursor: pointer;
   width: 20px;
   font-size: 20px;
@@ -52,7 +60,7 @@
   color: #888;
 }
 
-.left-header-section  img {
+.left-header-flexbox  img {
   position: relative;
   width: 100px;
   height: 30px;
@@ -60,31 +68,41 @@
   left: 50px;
 }
 
-.center-header-section  input[type='text'] {
+.center-header-flexbox{
+  display:flex;
+  justify-content: center;
+}
+
+.center-header-flexbox  input[type='text'] {
   position: relative;
-  left: 240px;
+  top: 12px;
   width: 409px;
-  padding-left: 1%;
+  padding-left: 1%; 
   height: 30px;
   border-top: solid 1px gray;
   border-bottom: solid 1px gray;
   border-left: solid 1px gray;
 }
 
-.center-header-section .search-button {
+.center-header-flexbox .search-button {
   position: relative;
-  left: 235px;
-  width: 50px;
+  top: 12px;
+  width: 50px; 
   height: 30px;
   background-color: #f8f8f8;
   border: solid 1px gray;
   color: #888;
 }
 
-.right-header-section .grid-button {
+.right-header-flexbox{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right-header-flexbox .grid-button {
   position: relative;
-  left: 495px;
   top: 17px;
+  margin-right: 15px;
   cursor: pointer;
   width: 20px;
   font-size: 20px;
@@ -94,10 +112,10 @@
   color: #888;
 }
 
-.right-header-section .bell-button {
+.right-header-flexbox .bell-button {
   position: relative;
-  left: 505px;
   top: 17px;
+  margin-right: 15px;
   cursor: pointer;
   width: 20px;
   font-size: 20px;
@@ -107,10 +125,10 @@
   color: #888;
 }
 
-.right-header-section .upload-button {
+.right-header-flexbox .upload-button {
   position: relative;
-  left: 517px;
   top: 17px;
+  margin-right: 15px;
   cursor: pointer;
   width: 20px;
   font-size: 20px;
@@ -120,15 +138,15 @@
   color: #888;
 }
 
-.right-header-section .signin-button {
+.right-header-flexbox .signin-button {
   position: relative;
+  margin-right: 15px;
   height: 31px;
   top: 13px;
-  left: 530px;
   color: white;
   background-color: rgb(22, 122, 198);
   border-radius: 4px;
-}
+} 
 
 /* video section styling */
 
