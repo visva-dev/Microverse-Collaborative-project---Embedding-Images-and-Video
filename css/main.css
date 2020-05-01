@@ -11,7 +11,7 @@
   grid-template-rows: 55px 1500px;
   grid-template-columns: 70% 29%;
   gap: 1%;
-  width:100%;
+  width: 100%;
   margin: auto;
 }
 
@@ -25,17 +25,16 @@
   background-color: white;
 }
 
-
 /* header styling */
 
-.left-header-section{
+.left-header-section {
   align-self: start;
 }
-.center-header-section{
+.center-header-section {
   align-self: center;
 }
 
-.right-header-section{
+.right-header-section {
   align-self: end;
 }
 
@@ -52,7 +51,7 @@
   color: #888;
 }
 
-.left-header-section  img {
+.left-header-section img {
   position: relative;
   width: 100px;
   height: 30px;
@@ -60,9 +59,9 @@
   left: 50px;
 }
 
-.center-header-section  input[type='text'] {
+.center-header-section input[type='text'] {
   position: relative;
-  left: 240px;
+  left: 510px;
   width: 409px;
   padding-left: 1%;
   height: 30px;
@@ -73,7 +72,7 @@
 
 .center-header-section .search-button {
   position: relative;
-  left: 235px;
+  left: 500px;
   width: 50px;
   height: 30px;
   background-color: #f8f8f8;
@@ -83,7 +82,7 @@
 
 .right-header-section .grid-button {
   position: relative;
-  left: 495px;
+  left: 1040px;
   top: 17px;
   cursor: pointer;
   width: 20px;
@@ -96,7 +95,7 @@
 
 .right-header-section .bell-button {
   position: relative;
-  left: 505px;
+  left: 1050px;
   top: 17px;
   cursor: pointer;
   width: 20px;
@@ -109,7 +108,7 @@
 
 .right-header-section .upload-button {
   position: relative;
-  left: 517px;
+  left: 1060px;
   top: 17px;
   cursor: pointer;
   width: 20px;
@@ -124,7 +123,7 @@
   position: relative;
   height: 31px;
   top: 13px;
-  left: 530px;
+  left: 1070px;
   color: white;
   background-color: rgb(22, 122, 198);
   border-radius: 4px;
@@ -185,7 +184,7 @@
 
 .subscribe-btn {
   position: relative;
-  left: -7.2%;
+  left: -55px;
   top: 15px;
   height: 25px;
   color: white;
@@ -197,7 +196,7 @@
 
 .sb-number {
   position: relative;
-  left: -7.6%;
+  left: -59px;
   top: 16px;
   background-color: white;
   border: solid 1px;
@@ -217,7 +216,7 @@
 .views {
   display: inline-block;
   position: relative;
-  left: 83%;
+  left: 1110px;
   font-size: 23px;
   color: #666666;
 }
@@ -250,7 +249,7 @@
 .share-more {
   display: inline-block;
   position: relative;
-  left: -11%;
+  left: -90px;
   top: 16px;
 }
 
@@ -299,7 +298,7 @@
 .show-more-btn {
   position: relative;
   top: 38px;
-  left:385px; 
+  left: 585px;
   background-color: transparent;
   cursor: pointer;
   border: none;
@@ -313,211 +312,210 @@
   position: relative;
   background-color: white;
   height: 586px;
-  width:99%;
+  width: 99%;
   top: 38px;
-  left:10px
+  left: 10px;
 }
 
-.comments-no-label{
+.comments-no-label {
   position: relative;
-  top:10px;
-  left:10px;
+  top: 10px;
+  left: 10px;
 }
 
-.comments-box .sort-button{
+.comments-box .sort-button {
   position: relative;
-  top:17px;
-  left:95px;
+  top: 17px;
+  left: 95px;
   background: transparent;
-  border:none;
+  border: none;
 }
 
-.comments-box .sort-button span{
+.comments-box .sort-button span {
   position: relative;
-  left:2px;
-  top:-5px;
+  left: 2px;
+  top: -5px;
   font-size: 14px;
 }
 
-.comments-box .user-avatar{
-  width:50px;
-  height:50px;
+.comments-box .user-avatar {
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
 }
 
-.comments-box .current-user-image{
+.comments-box .current-user-image {
   position: relative;
   top: 80px;
-  left:-175px;
+  left: -175px;
 }
 
-.comments-box .text-add-comment{
+.comments-box .text-add-comment {
   position: relative;
   top: 54px;
-  left:-162px;
+  left: -162px;
   font-size: 18px;
-  border:none;  
+  border: none;
 }
 
-.comments-box .add-comment-line{
+.comments-box .add-comment-line {
   position: relative;
   top: 55px;
   left: 80px;
   background-color: #666666;
   width: 89%;
-  height: 1px; 
+  height: 1px;
 }
 
-.commments{
+.commments {
   position: relative;
   top: 90px;
-  width:100%;
-  height:auto;
+  width: 100%;
+  height: auto;
 }
 
-.single-comment{
+.single-comment {
   position: relative;
   padding: 10px 0px;
   width: 70%;
-  height:auto;
+  height: auto;
 }
 
-.single-comment .comment-image{
+.single-comment .comment-image {
   position: relative;
-  left:13px;
+  left: 13px;
 }
 
-.single-comment .user-name{
+.single-comment .user-name {
   position: relative;
   top: -30px;
-  left:27px;
+  left: 27px;
   font-weight: 600;
   cursor: pointer;
 }
 
-.single-comment .commented-time{
+.single-comment .commented-time {
   position: relative;
   top: -30px;
-  left:31px;
+  left: 31px;
   cursor: pointer;
 }
 
-.single-comment .comment{
+.single-comment .comment {
   position: relative;
-  top:-20px;
+  top: -20px;
   left: 81px;
 }
 
-.single-comment .like-btn{
+.single-comment .like-btn {
   position: relative;
   color: #666666;
-  top:-8px;
-  left:73px;
-  border:none;
+  top: -8px;
+  left: 73px;
+  border: none;
   background-color: transparent;
 }
 
-.single-comment .like-btn .no-of-likes{
+.single-comment .like-btn .no-of-likes {
   font-size: 10px;
 }
 
-.single-comment .dislike-button{
+.single-comment .dislike-button {
   position: relative;
   color: #666666;
   background-color: transparent;
-  border:none;
-  top:-8px;
-  left:80px;
+  border: none;
+  top: -8px;
+  left: 80px;
 }
 
-.single-comment .dislike-button .no-of-dislikes{
+.single-comment .dislike-button .no-of-dislikes {
   font-size: 10px;
 }
 
-.single-comment .reply-button{
+.single-comment .reply-button {
   position: relative;
   color: #666666;
   background-color: transparent;
-  border:none;
-  top:-8px;
-  left:87px;
+  border: none;
+  top: -8px;
+  left: 87px;
   text-transform: uppercase;
 }
 
-
 /* Recomended video section */
 
-.upnext-heading{
+.upnext-heading {
   display: inline-block;
   position: relative;
-  top:17px;
-  left:10px;
+  top: 17px;
+  left: 10px;
   font-size: 18px;
 }
 
-.autoplay-label{
+.autoplay-label {
   position: relative;
-  top:17px;
-  left:150px;
+  top: 17px;
+  left: 150px;
   font-size: 18px;
 }
 
-.exclamation-circle-btn{
+.exclamation-circle-btn {
   position: relative;
-  top:17px;
-  left:160px;
+  top: 17px;
+  left: 160px;
   background-color: transparent;
   border: none;
   font-size: 16px;
 }
 
-.autoplay-btn{
+.autoplay-btn {
   position: relative;
-  top:17px;
-  left:155px;
+  top: 17px;
+  left: 155px;
   background-color: transparent;
   border: none;
   font-size: 18px;
-  color:blueviolet;
+  color: blueviolet;
 }
 
-.single-recomended-video{
+.single-recomended-video {
   position: relative;
   padding: 10px;
   height: 100px;
 }
 
-.single-recomended-video .recomended-video-img{
+.single-recomended-video .recomended-video-img {
   position: relative;
-  width:145px;
-  top:0px;
-  left:0px;
+  width: 145px;
+  top: 0px;
+  left: 0px;
 }
 
-.single-recomended-video  .recomended-title{
+.single-recomended-video .recomended-title {
   position: relative;
-  width:200px;
-  top:-82px;
-  left:160px;
+  width: 200px;
+  top: -82px;
+  left: 160px;
 }
 
-.single-recomended-video .recomended-channel-title{
+.single-recomended-video .recomended-channel-title {
   position: relative;
-  top:-82px;
-  left:160px;
+  top: -82px;
+  left: 160px;
   font-size: 12px;
   color: #767676;
 }
 
-.single-recomended-video .recomended-views{
+.single-recomended-video .recomended-views {
   position: relative;
-  top:-65px;
-  left:112px;
+  top: -65px;
+  left: 112px;
   font-size: 12px;
   color: #767676;
 }
 
-.next-play-line{
+.next-play-line {
   position: relative;
   background-color: #666666;
   width: 95%;
