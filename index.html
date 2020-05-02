@@ -3,7 +3,385 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Embedding Images and</title>
+    <title>Embedding Video and Images</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <div class="main">
+      <header class="header">
+        <div class="header-flex-container">
+          <div class="left-header-section">
+            <div class="left-header-flexbox">
+              <button class="bars-button">
+                <i class="fa fa-bars"> </i>
+              </button>
+              <img src="./images/youtube-logo.png" alt="yutube logo" />
+            </div>
+          </div>
+
+          <div class="center-header-section">
+            <div class="center-header-flexbox">
+              <input type="text" placeholder="Search" />
+              <button class="search-button">
+                <i class="fas fa-search"> </i>
+              </button>
+            </div>
+          </div>
+
+          <div class="right-header-section">
+            <div class="right-header-flexbox">
+              <button class="grid-button">
+                <img src="./images/grid-icon.svg" alt="grid icon"/>
+              </button>
+              <button class="bell-button">
+                <img src="./images/bell-icon.svg" alt="bell icon"/>
+              </button>
+              <button class="upload-button">
+                <img src="./images/upload-solid.svg" alt="upload icon"/>
+              </button>
+              <input type="button" class="signin-button" value="Sign In" />
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="video">
+        <div class="video-box">
+          <iframe
+            src="https://www.youtube.com/embed/F7Q3H6wa3-E"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <div class="info-box">
+          <h1 class="title">
+            From Microverse Student to Remote Developer: An interview with Ariel
+            Camus & Alvaro Sanchez
+          </h1>
+          <br />
+          <img
+            class="channel-picture"
+            src="./images/cat.jpg"
+            alt="channel-picture"
+          />
+          <label class="channel-title">Cats channel</label>
+
+          <button class="subscribe-btn">
+            <i class="fab fa-youtube"></i>Subscribe
+          </button>
+
+          <span class="sb-number">423</span>
+
+          <div class="line"></div>
+
+          <div class="views">
+            50,016 Views
+          </div>
+
+          <div class="view-line"></div>
+
+          <div class="like-disike">
+            <button class="like-dislike-btn">
+              <i class="fas fa-thumbs-up"></i>
+            </button>
+            <span>333</span>
+            <button class="like-dislike-btn">
+              <i class="fas fa-thumbs-down"></i>
+            </button>
+
+            <span>333</span>
+          </div>
+
+          <div class="share-more">
+            <button class="action-btn">
+              <i class="fas fa-plus"></i>
+              <span>Add to</span>
+            </button>
+
+            <button class="action-btn">
+              <i class="fas fa-share"></i>
+              <span>Share</span>
+            </button>
+
+            <button class="action-btn">
+              <i class="fas fa-ellipsis-h"></i>
+              <span>More</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="description-box">
+          <span class="description-date">Published on Feb 27, 2014</span>
+          <p>
+            This week our Lunch & Learn webinar will be an inspiring interview
+            by Microverse CEO & Founder, Ariel Camus, with Microverse graduate -
+            and now employee - Alvaro Sanchez. Alvaro completed the Microverse
+            program last year and was hired by Microverse to work in the
+            development team. Alvaro has worked on everything from bug fixes to
+            implementing and deploying new tools that students use daily! During
+            the interview, Alvaro will share his personal journey to becoming a
+            junior web developer. Ariel will also ask him about his experience
+            as a student at Microverse, and how he's enjoying his new career in
+            software development. Wondering what you can expect in your first
+            job as a software developer? Join the webinar and ask Alvaro
+            anything!
+          </p>
+          <div class="full-line"></div>
+          <button class="show-more-btn">Show More</button>
+        </div>
+
+        <div class="comments-box">
+          <label class="comments-no-label">3 Comments </label>
+          <button class="sort-button">
+            <img src="./images/sort-bar.png" alt="sort-bar" class="sort-icon" />
+            <span>SORT BY</span>
+          </button>
+          <img
+            class="user-avatar current-user-image"
+            src="./images/user-1.jpg"
+            alt="comment user avatar"
+          />
+          <input
+            type="text"
+            placeholder="Add a public comment"
+            class="text-add-comment"
+          />
+          <div class="add-comment-line"></div>
+
+          <div class="commments">
+            <div class="single-comment">
+              <img
+                src="./images/user-2.jpg"
+                alt="coomment user image"
+                class="user-avatar comment-image"
+              />
+              <label class="user-name">User 1</label>
+              <label class="commented-time">1 year ago</label>
+              <p class="comment">My first comment</p>
+              <button class="like-btn">
+                <i class="fas fa-thumbs-up"></i>
+                <span class="no-of-likes">5</span>
+              </button>
+              <button class="dislike-button">
+                <i class="fas fa-thumbs-down"></i>
+                <span class="no-of-dislikes">2</span>
+              </button>
+              <button class="reply-button">Reply</button>
+            </div>
+
+            <div class="single-comment">
+              <img
+                src="./images/person.jpg"
+                alt="coomment user image"
+                class="user-avatar comment-image"
+              />
+              <label class="user-name">Tahir</label>
+              <label class="commented-time">2 year ago</label>
+              <p class="comment">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro
+                distinctio id quibusdam quos magni illum eaque, vel eligendi
+                dolorum asperiores odit, ab a error accusantium? Tenetur
+                voluptatum voluptatibus aperiam vero?
+              </p>
+              <button class="like-btn">
+                <i class="fas fa-thumbs-up"></i>
+                <span class="no-of-likes">5</span>
+              </button>
+              <button class="dislike-button">
+                <i class="fas fa-thumbs-down"></i>
+                <span class="no-of-dislikes">2</span>
+              </button>
+              <button class="reply-button">Reply</button>
+            </div>
+
+            <div class="single-comment">
+              <img
+                src="./images/user-3.jpg"
+                alt="coomment user image"
+                class="user-avatar comment-image"
+              />
+              <label class="user-name">Visvaldas</label>
+              <label class="commented-time">3 year ago</label>
+              <p class="comment">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+                voluptates itaque ipsa veniam cupiditate ab perferendis eveniet
+                minus! Cumque cupiditate adipisci modi harum a delectus, rerum
+                nam vitae facere eos?
+              </p>
+              <button class="like-btn">
+                <i class="fas fa-thumbs-up"></i>
+                <span class="no-of-likes">5</span>
+              </button>
+              <button class="dislike-button">
+                <i class="fas fa-thumbs-down"></i>
+                <span class="no-of-dislikes">2</span>
+              </button>
+              <button class="reply-button">Reply</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="recommended-videos">
+        <h1 class="upnext-heading">Up next</h1>
+        <label class="autoplay-label"> Autoplay </label>
+        <button class="exclamation-circle-btn">
+          <i class="fas fa-exclamation-circle"></i>
+        </button>
+        <button class="autoplay-btn">
+          <i class="fas fa-toggle-on"></i>
+        </button>
+        <br />
+        <br />
+        <div class="single-recomended-video">
+          <img
+            src="./images/recomended-video2.jpeg"
+            alt="video image"
+            class="recomended-video-img"
+          />
+          <p class="recomended-title">
+            How to program in ruby a beginers guide
+          </p>
+          <label class="recomended-channel-title">rails drift</label>
+          <label class="recomended-views">654321 views</label>
+        </div>
+        <div class="next-play-line"></div>
+
+        <div class="single-recomended-video">
+          <img
+            src="./images/recomended-video1.jpeg"
+            alt="video image"
+            class="recomended-video-img"
+          />
+          <p class="recomended-title">
+            How to program in ruby a beginers guide
+          </p>
+          <label class="recomended-channel-title">rails drift</label>
+          <label class="recomended-views">654321 views</label>
+        </div>
+
+        <div class="single-recomended-video">
+          <img
+            src="./images/recomended-video2.jpeg"
+            alt="video image"
+            class="recomended-video-img"
+          />
+          <p class="recomended-title">
+            How to program in ruby a beginers guide
+          </p>
+          <label class="recomended-channel-title">rails drift</label>
+          <label class="recomended-views">654321 views</label>
+        </div>
+
+        <div class="single-recomended-video">
+          <img
+            src="./images/recomended-video1.jpeg"
+            alt="video image"
+            class="recomended-video-img"
+          />
+          <p class="recomended-title">
+            How to program in ruby a beginers guide
+          </p>
+          <label class="recomended-channel-title">rails drift</label>
+          <label class="recomended-views">654321 views</label>
+        </div>
+
+        <div class="single-recomended-video">
+          <img
+            src="./images/recomended-video2.jpeg"
+            alt="video image"
+            class="recomended-video-img"
+          />
+          <p class="recomended-title">
+            How to program in ruby a beginers guide
+          </p>
+          <label class="recomended-channel-title">rails drift</label>
+          <label class="recomended-views">654321 views</label>
+        </div>
+
+        <div class="single-recomended-video">
+          <img
+            src="./images/recomended-video1.jpeg"
+            alt="video image"
+            class="recomended-video-img"
+          />
+          <p class="recomended-title">
+            How to program in ruby a beginers guide
+          </p>
+          <label class="recomended-channel-title">rails drift</label>
+          <label class="recomended-views">654321 views</label>
+        </div>
+
+        <div class="single-recomended-video">
+          <img
+            src="./images/recomended-video2.jpeg"
+            alt="video image"
+            class="recomended-video-img"
+          />
+          <p class="recomended-title">
+            How to program in ruby a beginers guide
+          </p>
+          <label class="recomended-channel-title">rails drift</label>
+          <label class="recomended-views">654321 views</label>
+        </div>
+
+        <div class="single-recomended-video">
+          <img
+            src="./images/recomended-video1.jpeg"
+            alt="video image"
+            class="recomended-video-img"
+          />
+          <p class="recomended-title">
+            How to program in ruby a beginers guide
+          </p>
+          <label class="recomended-channel-title">rails drift</label>
+          <label class="recomended-views">654321 views</label>
+        </div>
+
+        <div class="single-recomended-video">
+          <img
+            src="./images/recomended-video2.jpeg"
+            alt="video image"
+            class="recomended-video-img"
+          />
+          <p class="recomended-title">
+            How to program in ruby a beginers guide
+          </p>
+          <label class="recomended-channel-title">rails drift</label>
+          <label class="recomended-views">654321 views</label>
+        </div>
+
+        <div class="single-recomended-video">
+          <img
+            src="./images/recomended-video1.jpeg"
+            alt="video image"
+            class="recomended-video-img"
+          />
+          <p class="recomended-title">
+            How to program in ruby a beginers guide
+          </p>
+          <label class="recomended-channel-title">rails drift</label>
+          <label class="recomended-views">654321 views</label>
+        </div>
+
+        <div class="single-recomended-video">
+          <img
+            src="./images/recomended-video2.jpeg"
+            alt="video image"
+            class="recomended-video-img"
+          />
+          <p class="recomended-title">
+            How to program in ruby a beginers guide
+          </p>
+          <label class="recomended-channel-title">rails drift</label>
+          <label class="recomended-views">654321 views</label>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
